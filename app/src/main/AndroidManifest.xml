@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.genius.quiz"
+    package="com.genius.quizapp"
     android:installLocation="auto">
 
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -43,7 +43,7 @@
         android:resizeable="true" />
 
     <application
-        android:name="com.genius.quiz.helper.AppController"
+        android:name="com.genius.quizapp.helper.AppController"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -54,7 +54,7 @@
         android:usesCleartextTraffic="true">
 
         <receiver
-            android:name="com.genius.quiz.helper.PhoneStateBroadcastReceiver"
+            android:name="com.genius.quizapp.helper.PhoneStateBroadcastReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -72,10 +72,10 @@
                 android:resource="@xml/provider_paths" />
         </provider>
 
-        <activity android:name="com.genius.quiz.activity.InviteFriendActivity" />
-        <activity android:name="com.genius.quiz.activity.DrawerActivity" />
+        <activity android:name="com.genius.quizapp.activity.InviteFriendActivity" />
+        <activity android:name="com.genius.quizapp.activity.DrawerActivity" />
         <activity
-            android:name="com.genius.quiz.activity.SplashActivity"
+            android:name="com.genius.quizapp.activity.SplashActivity"
             android:exported="true"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden">
@@ -86,25 +86,25 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.genius.quiz.activity.LoginTabActivity"
+            android:name="com.genius.quizapp.activity.LoginTabActivity"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.genius.quiz.activity.SettingActivity"
+            android:name="com.genius.quizapp.activity.SettingActivity"
             android:label=""
             android:theme="@style/Theme.AppCompat.Light.Dialog" />
 
         <activity
-            android:name="com.genius.quiz.activity.InstructionActivity"
+            android:name="com.genius.quizapp.activity.InstructionActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.CoinStoreActivity"
+            android:name="com.genius.quizapp.activity.CoinStoreActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.ReviewActivity"
+            android:name="com.genius.quizapp.activity.ReviewActivity"
             android:screenOrientation="portrait" />
-        <activity android:name="com.genius.quiz.spin.SpinActivity"
+        <activity android:name="com.genius.quizapp.spin.SpinActivity"
             android:screenOrientation="portrait"/>
         <activity
             android:name="com.facebook.FacebookActivity"
@@ -130,113 +130,113 @@
             android:value="@string/facebook_app_id" />
 
         <activity
-            android:name="com.genius.quiz.activity.BookmarkList"
+            android:name="com.genius.quizapp.activity.BookmarkList"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.PrivacyPolicy"
+            android:name="com.genius.quizapp.activity.PrivacyPolicy"
             android:launchMode="singleTop"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.LeaderboardTabActivity"
+            android:name="com.genius.quizapp.activity.LeaderboardTabActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.PlayActivity"
+            android:name="com.genius.quizapp.activity.PlayActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.BookmarkPlay"
+            android:name="com.genius.quizapp.activity.BookmarkPlay"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.MathSubcategoryActivity"
+            android:name="com.genius.quizapp.activity.MathSubcategoryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.one_to_one.PlayOneToOne"
+            android:name="com.genius.quizapp.one_to_one.PlayOneToOne"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.LearningZoneActivity"
+            android:name="com.genius.quizapp.activity.LearningZoneActivity"
             android:screenOrientation="portrait" />
-        <activity android:name="com.genius.quiz.activity.MathsReviewActivity"
+        <activity android:name="com.genius.quizapp.activity.MathsReviewActivity"
             android:screenOrientation="portrait"/>
         <activity
-            android:name="com.genius.quiz.activity.LearningChapterActivity"
+            android:name="com.genius.quizapp.activity.LearningChapterActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.TournamentPlay"
+            android:name="com.genius.quizapp.activity.TournamentPlay"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.ContestActivity"
+            android:name="com.genius.quizapp.activity.ContestActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.PracticeQuiz"
+            android:name="com.genius.quizapp.activity.PracticeQuiz"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.MainActivity"
+            android:name="com.genius.quizapp.activity.MainActivity"
             android:configChanges="locale|orientation"
             android:screenOrientation="portrait" />
 
         <activity
-            android:name="com.genius.quiz.activity.CompleteActivity"
+            android:name="com.genius.quizapp.activity.CompleteActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.MathsPlayActivity"
+            android:name="com.genius.quizapp.activity.MathsPlayActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.LevelActivity"
+            android:name="com.genius.quizapp.activity.LevelActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.SubcategoryActivity"
+            android:name="com.genius.quizapp.activity.SubcategoryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.DailyCompleteActivity"
+            android:name="com.genius.quizapp.activity.DailyCompleteActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.CategoryActivity"
+            android:name="com.genius.quizapp.activity.CategoryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.ProfileActivity"
+            android:name="com.genius.quizapp.activity.ProfileActivity"
             android:screenOrientation="portrait"
 
             android:windowSoftInputMode="stateAlwaysHidden"
 
             />
         <activity
-            android:name="com.genius.quiz.activity.NotificationList"
+            android:name="com.genius.quizapp.activity.NotificationList"
             android:launchMode="singleTop" />
         <activity
-            android:name="com.genius.quiz.activity.UserStatistics"
+            android:name="com.genius.quizapp.activity.UserStatistics"
             android:launchMode="singleTop" />
         <activity
-            android:name="com.genius.quiz.activity.NewSelfChallengeActivity"
+            android:name="com.genius.quizapp.activity.NewSelfChallengeActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.BattlePlayActivity"
+            android:name="com.genius.quizapp.activity.BattlePlayActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.RobotPlayActivity"
+            android:name="com.genius.quizapp.activity.RobotPlayActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.CompleteActivityTournaments"
+            android:name="com.genius.quizapp.activity.CompleteActivityTournaments"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.RewardActivity"
+            android:name="com.genius.quizapp.activity.RewardActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.SearchPlayerActivity"
+            android:name="com.genius.quizapp.activity.SearchPlayerActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.ResultActivity"
+            android:name="com.genius.quizapp.activity.ResultActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.activity.SelfChallengeQuestion"
+            android:name="com.genius.quizapp.activity.SelfChallengeQuestion"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.battle.BattleResultActivity"
+            android:name="com.genius.quizapp.battle.BattleResultActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.battle.WaitingRoomActivity"
+            android:name="com.genius.quizapp.battle.WaitingRoomActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.genius.quiz.battle.MultiPlayerGame"
+            android:name="com.genius.quizapp.battle.MultiPlayerGame"
             android:screenOrientation="portrait" />
 
         <meta-data
@@ -246,7 +246,7 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" /> <!-- Firebase Notifications -->
         <service
-            android:name="com.genius.quiz.service.MyFirebaseMessagingService"
+            android:name="com.genius.quizapp.service.MyFirebaseMessagingService"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -256,8 +256,8 @@
         <activity
             android:name="com.canhub.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" />
-        <activity android:name="com.genius.quiz.one_to_one.OneToOneBattle" />
-        <activity android:name="com.genius.quiz.one_to_one.OneToOneWait" />
+        <activity android:name="com.genius.quizapp.one_to_one.OneToOneBattle" />
+        <activity android:name="com.genius.quizapp.one_to_one.OneToOneWait" />
     </application>
 
 </manifest>

@@ -1,23 +1,24 @@
 {
   "project_info": {
     "project_number": "278553128103",
+    "firebase_url": "https://genius-quizz-3941e-default-rtdb.firebaseio.com",
     "project_id": "genius-quizz-3941e",
     "storage_bucket": "genius-quizz-3941e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:278553128103:android:270d30730c7fc75e28bf82",
+        "mobilesdk_app_id": "1:278553128103:android:a6881490dd2a45f728bf82",
         "android_client_info": {
-          "package_name": "com.genius.quiz"
+          "package_name": "com.genius.quizapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "278553128103-kgdhu4ds8h0edho8u98bcjnajkvfe3jl.apps.googleusercontent.com",
+          "client_id": "278553128103-eqrebt6m519du27d0e14bemt2bstvjls.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.genius.quiz",
+            "package_name": "com.genius.quizapp",
             "certificate_hash": "691c670a11b8e67920483c868505e6b3689cf5fe"
           }
         },

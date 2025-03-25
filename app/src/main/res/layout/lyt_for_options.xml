@@ -47,7 +47,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/txt_color" />
 
-        <com.genius.quiz.helper.AudienceProgress
+        <com.genius.quizapp.helper.AudienceProgress
             android:id="@+id/progress_A"
             android:layout_width="@dimen/circle_progress"
             android:layout_height="@dimen/circle_progress"
@@ -97,7 +97,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/txt_color" />
 
-        <com.genius.quiz.helper.AudienceProgress
+        <com.genius.quizapp.helper.AudienceProgress
             android:id="@+id/progress_B"
             android:layout_width="@dimen/circle_progress"
             android:layout_height="@dimen/circle_progress"
@@ -149,7 +149,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/txt_color" />
 
-        <com.genius.quiz.helper.AudienceProgress
+        <com.genius.quizapp.helper.AudienceProgress
             android:id="@+id/progress_C"
             android:layout_width="@dimen/circle_progress"
             android:layout_height="@dimen/circle_progress"
@@ -199,7 +199,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/txt_color" />
 
-        <com.genius.quiz.helper.AudienceProgress
+        <com.genius.quizapp.helper.AudienceProgress
             android:id="@+id/progress_D"
             android:layout_width="@dimen/circle_progress"
             android:layout_height="@dimen/circle_progress"
@@ -248,7 +248,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@color/txt_color" />
 
-        <com.genius.quiz.helper.AudienceProgress
+        <com.genius.quizapp.helper.AudienceProgress
             android:id="@+id/progress_E"
             android:layout_width="@dimen/circle_progress"
             android:layout_height="@dimen/circle_progress"

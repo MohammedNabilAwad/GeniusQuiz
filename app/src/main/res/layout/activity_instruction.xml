@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg_color"
-    tools:context="com.genius.quiz.activity.InstructionActivity">
+    tools:context="com.genius.quizapp.activity.InstructionActivity">
 
     <include layout="@layout/toolbar_layout" />
 

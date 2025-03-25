@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/bg_color"
-    tools:context="com.genius.quiz.activity.BookmarkList">
+    tools:context="com.genius.quizapp.activity.BookmarkList">
 
 <include layout="@layout/toolbar_layout"/>
 

@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/bg_color"
-    tools:context="com.genius.quiz.activity.ResultActivity">
+    tools:context="com.genius.quizapp.activity.ResultActivity">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -60,7 +60,7 @@
                         android:layout_marginTop="@dimen/margin_10dp">
 
 
-                        <com.genius.quiz.helper.CircleTimer
+                        <com.genius.quizapp.helper.CircleTimer
                             android:id="@+id/progressBar"
                             android:layout_width="70dp"
                             android:layout_height="70dp"

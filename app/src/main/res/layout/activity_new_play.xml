@@ -115,7 +115,7 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <com.genius.quiz.helper.CircleTimer
+                        <com.genius.quizapp.helper.CircleTimer
                             android:id="@+id/progressTimer"
                             android:layout_width="50dp"
                             android:layout_height="50dp"

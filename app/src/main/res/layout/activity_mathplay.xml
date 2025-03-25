@@ -111,7 +111,7 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <com.genius.quiz.helper.CircleTimer
+                        <com.genius.quizapp.helper.CircleTimer
                             android:id="@+id/progressTimer"
                             android:layout_width="50dp"
                             android:layout_height="50dp"
@@ -274,7 +274,7 @@
             app:lottie_loop="true"
             app:lottie_rawRes="@raw/dotprogress" />
 
-        <com.genius.quiz.helper.Typewriter
+        <com.genius.quizapp.helper.Typewriter
             android:id="@+id/typewrite"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

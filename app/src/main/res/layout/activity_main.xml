@@ -73,7 +73,7 @@
 
         </androidx.appcompat.widget.Toolbar>
 
-        <com.genius.quiz.helper.CircleImageView
+        <com.genius.quizapp.helper.CircleImageView
             android:id="@+id/imgProfile"
             android:layout_width="70dp"
             android:layout_height="70dp"

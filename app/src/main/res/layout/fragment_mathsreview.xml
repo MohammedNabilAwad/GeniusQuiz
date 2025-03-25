@@ -47,7 +47,7 @@
                     android:textSize="@dimen/mid_text"
                     android:textStyle="bold" />
 
-                <com.genius.quiz.helper.MathJaxWebView
+                <com.genius.quizapp.helper.MathJaxWebView
                     android:id="@+id/tvSolution"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

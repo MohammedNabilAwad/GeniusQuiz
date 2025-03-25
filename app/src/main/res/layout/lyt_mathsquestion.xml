@@ -23,7 +23,7 @@
 
             >
 
-            <com.genius.quiz.helper.MathJaxWebView
+            <com.genius.quizapp.helper.MathJaxWebView
                 android:id="@+id/txtQuestion"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
                 android:layout_marginEnd="@dimen/margin_20dp" />
         </ScrollView>
 
-        <com.genius.quiz.helper.TouchImageView
+        <com.genius.quizapp.helper.TouchImageView
             android:id="@+id/imgQuestion"
             android:layout_width="match_parent"
             android:layout_height="@dimen/img_height"
@@ -63,7 +63,7 @@
 
     </RelativeLayout>
 
-    <com.genius.quiz.helper.MathJaxWebView
+    <com.genius.quizapp.helper.MathJaxWebView
         android:id="@+id/tvImgQues"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -58,7 +58,7 @@
         android:textColor="@color/txt_color" />
 
 
-    <com.genius.quiz.helper.CircleTimer
+    <com.genius.quizapp.helper.CircleTimer
         android:id="@+id/circleTimer"
         android:layout_width="@dimen/progress_h_w"
         android:layout_height="@dimen/progress_h_w"
